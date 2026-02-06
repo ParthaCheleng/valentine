@@ -7,13 +7,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 const galleryItems = [
     // Row 0
     { id: 1, src: "/p5.jpg", alt: "Love 1", className: "col-start-2 col-span-1 row-span-1", delay: "0ms" },
-    { id: 2, src: "/p2.jpg", alt: "Love 2", className: "col-start-3 col-span-1 row-span-1", delay: "50ms" },
+    { id: 2, src: "/p2.JPG", alt: "Love 2", className: "col-start-3 col-span-1 row-span-1", delay: "50ms" },
     { id: 3, src: "/p1.jpg", alt: "Love 3", className: "col-start-5 col-span-2 row-span-2", delay: "100ms" },
 
     // Row 1
     { id: 4, src: "/p6.jpg", alt: "Love 4", className: "col-start-1 col-span-1 row-span-1", delay: "150ms", imageStyle: { objectPosition: '0% 20%' } },
     { id: 5, src: "/p7.jpg", alt: "Love 5", className: "col-start-2 col-span-2 row-span-2", delay: "200ms" },
-    { id: 6, src: "/p3.jpg", alt: "Love 6", className: "col-start-4 col-span-1 row-span-1", delay: "250ms" },
+    { id: 6, src: "/p3.JPG", alt: "Love 6", className: "col-start-4 col-span-1 row-span-1", delay: "250ms" },
     { id: 7, src: "/p13.jpg", alt: "Love 7", className: "col-start-7 col-span-1 row-span-1", delay: "300ms" },
 
     // Row 2
@@ -27,10 +27,10 @@ const galleryItems = [
     { id: 13, src: "/p4.jpg", alt: "Love 13", className: "col-start-3 col-span-2 row-span-2", delay: "600ms" },
 
     // Row 4
-    { id: 14, src: "/p14.jpg", alt: "Love 14", className: "col-start-5 col-span-1 row-span-1", delay: "650ms" },
+    { id: 14, src: "/p14.JPG", alt: "Love 14", className: "col-start-5 col-span-1 row-span-1", delay: "650ms" },
 
     // Row 5
-    { id: 15, src: "/p15.jpg", alt: "Love 15", className: "col-start-4 col-span-1 row-span-1", delay: "700ms" },
+    { id: 15, src: "/p15.JPG", alt: "Love 15", className: "col-start-4 col-span-1 row-span-1", delay: "700ms" },
 ];
 
 // Reusable Image Card Component
