@@ -156,7 +156,7 @@ export default function Gateway({ onEnter }: GatewayProps) {
                     Will you be my Valentine?
                 </h1>
                 <p
-                    className={`text-gray-500 font-great-vibes mb-8 text-3x1 transition-all duration-[2000ms] ease-out ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+                    className={`text-gray-500 font-great-vibes mb-8 text-3xl transition-all duration-[2000ms] ease-out ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                     style={{ transitionDelay: randomDelays[2] || '0ms' }}
                 >
                     There is only one right answer...

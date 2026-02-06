@@ -102,7 +102,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
                 </div>
 
                 {/* Cute message? Optional */}
-                <p className="mt-4 text-gray-400 text-3x1 font-great-vibes animate-pulse">
+                <p className="mt-4 text-gray-400 text-3xl font-great-vibes animate-pulse">
                     Preparing cuteness...
                 </p>
             </div>
